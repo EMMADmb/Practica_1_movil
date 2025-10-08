@@ -1,0 +1,11 @@
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  errors:
+    unused_field: ignore
+    unused_element: ignore
+
+# You can re-add a top-level include if you have a shared analysis_options
+# file in a parent folder. The previous include pointed outside the project and
+# caused the `include_file_not_found` warning in the analyzer.
